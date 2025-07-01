@@ -71,7 +71,7 @@ Edit
 
 ### 🧮 Step 3: Power BI DAX Measures
 
-```DAX
+DAX
 Total Customers = COUNT(prod_Churn[Customer_ID])
 New Joiners = CALCULATE(COUNT(prod_Churn[Customer_ID]), prod_Churn[Customer_Status] = "Joined")
 Total Churn = SUM(prod_Churn[Churn Status])
